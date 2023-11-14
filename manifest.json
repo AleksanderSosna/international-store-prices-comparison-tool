@@ -1,0 +1,37 @@
+{
+  "name": "International Store Prices Comparison Tool",
+  "version": "2023.11.1",
+  "description": "Compare prices between online stores in different countries.",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/icon-192.png",
+    "32": "images/icon-192.png",
+    "48": "images/icon-192.png",
+    "128": "images/icon-192.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://stores-api-polyu.ondigitalocean.app/api/ikea"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://www.ikea.com/*/p/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "/service-worker/service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}

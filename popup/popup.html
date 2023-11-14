@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <div
+      id="popup"
+      class="p-2 has-background-warning"
+      style="min-width: 300px; border: 0.05rem solid hsl(217, 71%, 53%)"
+    >
+      <!-- <div class="columns is-mobile">
+        <div class="column">
+          <div class="p-2 has-background-white-ter" style="border-radius: 0.5rem">
+            <div class="field">
+              <label class="label">Countries</label>
+              <div class="control">
+                <div class="select is-multiple is-small">
+                  <select multiple size="2" disabled>
+                    <option value="Poland" selected>Poland</option>
+                    <option value="Czechia" selected>Czechia</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="p-2 has-background-white-ter" style="border-radius: 0.5rem">
+            <div class="field">
+              <label class="label">Currency</label>
+              <div class="control">
+                <div class="select is-small">
+                  <select disabled>
+                    <option value="pln" selected>PLN</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="columns is-mobile">
+        <div class="column has-text-centered">
+          <button id="load-results" class="button is-link">Load Results</button>
+        </div>
+      </div>
+      <div id="prices"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
