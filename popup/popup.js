@@ -135,7 +135,7 @@ function loadResults() {
                   if (response.countryCode !== "pl") {
                     const exchangeRateResponse = await fetch(
                       `https://api.nbp.pl/api/exchangerates/rates/A/${currency(
-                        countryCode
+                        response.countryCode
                       )}?format=json`
                     );
                     const exchangeRateResJson =
