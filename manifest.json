@@ -1,6 +1,6 @@
 {
   "name": "International Store Prices Comparison Tool",
-  "version": "2023.11.1",
+  "version": "2023.11.2",
   "description": "Compare prices between online stores in different countries.",
   "manifest_version": 3,
   "icons": {
