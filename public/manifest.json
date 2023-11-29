@@ -12,7 +12,7 @@
     "48": "images/icon-192.png",
     "128": "images/icon-192.png"
   },
-  "permissions": ["storage", "tabs"],
+  "permissions": [],
   "host_permissions": [
     "https://stores-api-polyu.ondigitalocean.app/api/ikea",
     "https://api.ingka.ikea.com/cia/availabilities/ru"

@@ -6,9 +6,9 @@ import {
   IkeaProductPrice,
   IkeaProductRestock,
 } from "../../../types";
-import { Price } from "../Price/Price";
-import { PricesSummary } from "../PricesSummary/PricesSummary";
-import { ErrorComponent } from "../ErrorComponent/ErrorComponent";
+import { Price } from "./Price/Price";
+import { PricesSummary } from "./PricesSummary/PricesSummary";
+import { ErrorComponent } from "./ErrorComponent/ErrorComponent";
 import { Link } from "react-router-dom";
 
 function Prices() {
@@ -328,8 +328,13 @@ function Prices() {
 
   return (
     <div id="prices">
-      <div className="columns is-mobile">
-        <div className="column has-text-right">
+      <div className="columns is-mobile is-variable is-1">
+        <div className="column has-text-left is-one-quarter">
+        </div>
+        <div className="column has-text-left is-two-quarters has-background-white-ter" style={{ borderRadius: "0.5rem" }}>
+            <h6 className="title is-6 has-text-centered">IKEA</h6>
+        </div>
+        <div className="column has-text-right is-one-quarter">
           <Link to="/settings">
             <button className="button is-link is-small">
               <span className="icon-text">

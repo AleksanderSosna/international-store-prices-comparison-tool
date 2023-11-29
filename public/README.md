@@ -16,6 +16,7 @@
 
 - better UI
 - selecting countries that should be displayed in results (for now **Poland and Czechia are selected by default** and changing that selection is **disabled**)
+- selecting stores for each country to show product availability for in results (for now **Katowice (Poland) and Ostrava (Czechia) are selected by default** and changing that selection is **disabled**)
 - selecting the currency that all the prices should be displayed in (for now the **only option is PLN**)
 - changing display order of results in settings
 
