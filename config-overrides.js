@@ -1,24 +1,24 @@
-const { override } = require('customize-cra')
+const { override } = require("customize-cra");
 
 const overrideEntry = (config) => {
-  config.entry = {
-    main: './src/popup',
-    content: './src/content',
-  }
+    config.entry = {
+        main: "./src/popup",
+        content: "./src/content",
+    };
 
-  return config
-}
+    return config;
+};
 
 const overrideOutput = (config) => {
-  config.output = {
-    ...config.output,
-    filename: 'static/js/[name].js',
-    chunkFilename: 'static/js/[name].js',
-  }
+    config.output = {
+        ...config.output,
+        filename: "static/js/[name].js",
+        chunkFilename: "static/js/[name].js",
+    };
 
-  return config
-}
+    return config;
+};
 
 module.exports = {
-  webpack: (config) => override(overrideEntry, overrideOutput)(config),
-}
+    webpack: (config) => override(overrideEntry, overrideOutput)(config),
+};
