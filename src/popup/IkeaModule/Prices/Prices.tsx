@@ -1,8 +1,8 @@
 import React from "react";
 import { IkeaProductAvailability, IkeaProductPageMessage, IkeaProductPageResponse, IkeaProductPrice, IkeaProductRestock } from "@src/types";
-import { Price } from "@IkeaModule/Prices/Price/Price";
-import { PricesSummary } from "@IkeaModule/Prices/PricesSummary/PricesSummary";
-import { ErrorComponent } from "@IkeaModule/Prices/ErrorComponent/ErrorComponent";
+import { Price } from "./Price/Price";
+import { PricesSummary } from "./PricesSummary/PricesSummary";
+import { ErrorComponent } from "./ErrorComponent/ErrorComponent";
 import { Link } from "react-router-dom";
 
 function Prices() {

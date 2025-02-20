@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CountryStoreSelect } from "@IkeaModule/Settings/StoresSelection/CountryStoreSelect/CountryStoreSelect";
+import { CountryStoreSelect } from "./CountryStoreSelect/CountryStoreSelect";
 
 const StoresSelection = (props: any) => {
     const countriesWithStores = [

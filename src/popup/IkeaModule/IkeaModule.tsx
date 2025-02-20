@@ -1,8 +1,8 @@
-import { Prices } from "@IkeaModule/Prices/Prices";
-import { Settings } from "@IkeaModule/Settings/Settings";
+import { Prices } from "./Prices/Prices";
+import { Settings } from "./Settings/Settings";
 import { Routes, Route } from "react-router-dom";
-import { Availabilities } from "@IkeaModule/Availabilities/Availabilities";
-import { StoresSelection } from "@IkeaModule/Settings/StoresSelection/StoresSelection";
+import { Availabilities } from "./Availabilities/Availabilities";
+import { StoresSelection } from "./Settings/StoresSelection/StoresSelection";
 
 function IkeaModule() {
     return (

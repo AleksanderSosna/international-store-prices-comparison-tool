@@ -22,12 +22,6 @@
     "paths": {
       "@src/*": [
         "src/*"
-      ],
-      "@popup/*": [
-        "src/popup/*"
-      ],
-      "@IkeaModule/*": [
-        "src/popup/IkeaModule/*"
       ]
     },
     "jsx": "react-jsx"
