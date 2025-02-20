@@ -1,5 +1,5 @@
 import React from "react";
-import { IkeaProductAvailability, IkeaProductPageMessage, IkeaProductPageResponse, IkeaProductPrice, IkeaProductRestock } from "@src/types";
+import { IkeaProductAvailability, IkeaProductPageMessage, IkeaProductPageResponse, IkeaProductPrice, IkeaProductRestock } from "./../../../types";
 import { Price } from "./Price/Price";
 import { PricesSummary } from "./PricesSummary/PricesSummary";
 import { ErrorComponent } from "./ErrorComponent/ErrorComponent";

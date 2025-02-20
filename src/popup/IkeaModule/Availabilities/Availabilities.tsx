@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { IkeaProductAvailability } from "@src/types";
+import { IkeaProductAvailability } from "./../../../types";
 import { Availability } from "./Availability/Availability";
 
 const Availabilities = (props: any) => {

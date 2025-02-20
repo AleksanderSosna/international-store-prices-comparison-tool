@@ -1,4 +1,4 @@
-import { IkeaProductPageMessage, IkeaProductPageResponse } from "@src/types";
+import { IkeaProductPageMessage, IkeaProductPageResponse } from "./../types";
 
 const ikeaProductPageListener = (message: IkeaProductPageMessage, sender: chrome.runtime.MessageSender, sendResponse: (response: IkeaProductPageResponse) => void) => {
     const productWrapperSelector = document.querySelector("div.pip-page-container__main > div[data-product-id]")!;
